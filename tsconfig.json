@@ -1,8 +1,6 @@
 {
   "extends": "@nuxt/typescript",
   "compilerOptions": {
-    "target": "es2018",
-    "module": "commonjs",
     "noImplicitThis": false,
     "strictNullChecks": true,
     "removeComments": true,
