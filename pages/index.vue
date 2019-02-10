@@ -1,11 +1,14 @@
 <template>
   <div>
     <h1>nuxt-ts</h1>
+    <div />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+
+import path from 'path'
 
 export default Vue.extend({
   mounted() {
@@ -14,8 +17,10 @@ export default Vue.extend({
 
   methods: {
     onMounted(msg: string) {
-      const message: string = msg
-      console.log(message)
+      if (msg === null) {
+        const message: string = msg
+        console.log(message)
+      }
     }
   }
 })

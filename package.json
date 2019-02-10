@@ -29,11 +29,17 @@
   },
   "license": "MIT",
   "lint-staged": {
-    "**/*.{js,vue}": [
+    "**/*.js": [
       "eslint --fix",
       "git add"
     ],
-    "**/*.{css,vue}": [
+    "**/*.vue": [
+      "eslint --fix",
+      "stylelint --fix",
+      "git add"
+    ],
+    "**/*.css": [
+      "prettier --write",
       "stylelint --fix",
       "git add"
     ]

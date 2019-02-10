@@ -6,6 +6,7 @@ module.exports = {
   },
   parserOptions: {
     parser: '@typescript-eslint/parser',
+    project: './tsconfig.json',
     ecmaVersion: 2018,
     sourceType: 'module'
   },
@@ -20,10 +21,10 @@ module.exports = {
   ],
   rules: {
     'no-console': 'off',
-    'no-unused-vars': 'warn',
+    'no-unused-vars': 'off',
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'warn',
-    'vue/html-self-closing': 'off',
+    'vue/html-self-closing': 'error',
     'vue/component-name-in-template-casing': [
       'error',
       'PascalCase',
