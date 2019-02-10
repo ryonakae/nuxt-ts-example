@@ -7768,6 +7768,11 @@ stylelint-config-standard@^18.2.0:
   dependencies:
     stylelint-config-recommended "^2.1.0"
 
+stylelint-media-use-custom-media@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-media-use-custom-media/-/stylelint-media-use-custom-media-1.0.0.tgz#9bcc66bd77208b3594b7b7abcddfdc7a1c68f1a2"
+  integrity sha512-CGPa5bztGo5EnvIpV4MKfyBpYqakqO5y/dOpuJTLCoqXQWKGwcb5cT5NQdPS7y9T51jyxn9ajVO6boOGrEH42g==
+
 stylelint-order@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-2.0.0.tgz#f19400e1d42a844bfd149fae1daa02e671a9b2f2"
@@ -7776,6 +7781,23 @@ stylelint-order@^2.0.0:
     lodash "^4.17.10"
     postcss "^7.0.2"
     postcss-sorting "^4.0.1"
+
+stylelint-use-nesting@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/stylelint-use-nesting/-/stylelint-use-nesting-1.1.0.tgz#5dfe737c2a78fb4c4b26753c8bddf977eebafa12"
+  integrity sha512-gJkgQaW9v3M78+90l957F2Bo1Ccg/t1I89H36Qs4cHpizvfojwhSvr6HarPMdJsVBfpg1Ab45JUwXsHMW7iprw==
+
+stylelint-value-no-exposed-custom-properties@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-value-no-exposed-custom-properties/-/stylelint-value-no-exposed-custom-properties-2.2.0.tgz#e893d8bff68afd33db694ccca83f0195c1e2c35e"
+  integrity sha512-GYKMUAgiqje3ZzdwcufPueDPSAFAumguPFZf4/HAzCp0z0Y26VEsQnfbUtCVlEixITiXtUnw6E+vJzpxdMtAfg==
+
+stylelint-value-no-unknown-custom-properties@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-value-no-unknown-custom-properties/-/stylelint-value-no-unknown-custom-properties-2.0.0.tgz#0c2559061a5bda76939e7fece511c11d7faf62ed"
+  integrity sha512-iA7pLNBRCrRi35rUpF3bS4zpPWQtk1YxqKC0MhgOvhI1XDciE/FaAQoFgn65vGMEyQ0Q3PPGfWawn7sVd/thXQ==
+  dependencies:
+    postcss-values-parser "^2.0.0"
 
 stylelint@^9.10.1:
   version "9.10.1"

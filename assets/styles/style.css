@@ -1,0 +1,14 @@
+@import 'properties.css';
+
+.example {
+  color: var(--white);
+  background-color: var(--red);
+}
+
+.example2 {
+  color: var(--brand-blue);
+
+  &:hover {
+    background: var(--brand-blue);
+  }
+}
