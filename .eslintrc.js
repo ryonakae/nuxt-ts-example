@@ -20,8 +20,6 @@ module.exports = {
     'prettier/vue'
   ],
   rules: {
-    'no-console': 'off',
-    'no-unused-vars': 'off',
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'warn',
     'vue/html-self-closing': 'error',

@@ -7,7 +7,6 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import path from 'path'
 
 export default Vue.extend({
   mounted() {
