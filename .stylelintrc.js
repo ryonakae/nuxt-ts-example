@@ -1,9 +1,5 @@
 module.exports = {
-  extends: [
-    'stylelint-config-standard',
-    'stylelint-config-recess-order',
-    './node_modules/prettier-stylelint/config.js'
-  ],
+  extends: ['stylelint-config-standard', 'stylelint-config-recess-order'],
   rules: {
     'declaration-colon-newline-after': null,
     'value-list-comma-newline-after': null,
