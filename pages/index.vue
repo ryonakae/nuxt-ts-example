@@ -1,22 +1,32 @@
 <template>
-  <h1>{{ message }}</h1>
+  <h1 class="title">nuxt-ts</h1>
 </template>
 
 <script lang="ts">
-import { Vue, Component, Emit } from 'nuxt-property-decorator'
+import Vue from 'vue'
 
-@Component
-export default class Index extends Vue {
-  message: string = 'hello world'
-
-  @Emit()
-  onMounted(text: string): void {
-    console.log(text)
-  }
+export default Vue.extend({
+  data() {
+    return {
+      message: '' as string
+    }
+  },
 
   mounted() {
+    this.message = 'Vue.extend()'
     this.onMounted(this.message)
-    this.onMounted(true)
+  },
+
+  methods: {
+    onMounted(text: string): void {
+      console.log(text)
+    }
   }
-}
+})
 </script>
+
+<style scoped>
+.title {
+  color: var(--blue);
+}
+</style>
