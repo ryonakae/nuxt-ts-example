@@ -1,3 +1,5 @@
 export default {
-  loading: false
+  css: ['~/assets/css/style.css'],
+  loading: false,
+  plugins: ['~/plugins/hello']
 }
